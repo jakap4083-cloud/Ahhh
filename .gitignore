@@ -1,0 +1,15 @@
+# Upload (bukti pembayaran & QRIS) - jangan commit file user
+uploads/*
+!uploads/index.html
+
+# Config lokal (opsional jika ingin pisahkan kredensial)
+# config/config.local.php
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependency
+/vendor/
+node_modules/
